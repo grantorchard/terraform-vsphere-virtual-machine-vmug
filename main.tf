@@ -1,5 +1,5 @@
 module "my-vm" {
-  source = "github.com/terraform-vsphere-module-virtual-machine"
+  source = "github.com/grantorchard/terraform-vsphere-module-virtual-machine"
 
   datacenter = "Core"
   cluster = "Management"
