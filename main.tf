@@ -1,4 +1,3 @@
-/*
 module "my-vm" {
   source = "github.com/grantorchard/terraform-vsphere-module-virtual-machine"
 
@@ -8,7 +7,7 @@ module "my-vm" {
   primary_datastore = "hl-core-ds02"
   template = "consul_sso-srv"
 }
-*/
+
 
 resource vsphere_virtual_disk "this" {
   size       = 2
